@@ -1,1 +1,112 @@
-
+{
+  "name": "AFK Bot",
+  "bot-account": {
+    "username": "PerzaanLive",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "lolingusing.aternos.me",
+    "port": 53870,
+    "version": "1.21.1"
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "Perzuu"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 90,
+      "messages": [
+        "Wesh mon gars! attends.. T AFRICAIN? RETOURNE DANS TON PAYS SALE IMMIGRANT",
+        "Elio pk ta peter",
+        "je veux lecher eliotte et dorian",
+        "oh oui continue",
+        "ARRT STPPPPP",
+        "jai trop envie",
+        "bah oui frr aussi",
+        "vasy degage avec ta grosse tete la",
+        "arrt de me faire caca dessus enfaite ENNNNNNN",
+        "#grrrrrrmodays",
+        "Mais que fait le chien prankeur",
+        "il s'est mit a twerker",
+        "je te veut",
+        "je taime pas",
+        "chui une rakai",
+        "#Roblox #NordVpn #zizi #proute",
+        "Participate In The Super Albert Tycoon!",
+        "caca",
+        "pipi",
+        "proute",
+        "diarée",
+        "constipation",
+        "philipe aime bien philipine car garcon fill",
+        "nolhan arrt de me lecher les pieds"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 20000,
+    "periodic-rejoin": {
+      "enabled": false,
+      "min-interval": 20,
+      "max-interval": 60
+    }
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": true,
+    "place-night": true
+  },
+  "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true
+  }
+}
